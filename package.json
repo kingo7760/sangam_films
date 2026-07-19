@@ -1,0 +1,23 @@
+{
+  "name": "sangam-films-backend",
+  "version": "2.0.0",
+  "description": "Sangam Films portfolio — Express backend with Supabase Storage + Postgres",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "hash-password": "node hash-password.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
